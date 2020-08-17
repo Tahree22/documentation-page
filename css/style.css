@@ -1,0 +1,52 @@
+#navbar {
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-color: black z-index: 1;
+}
+
+.title-header {
+    font-size: 40px;
+    font-weight: heavy;
+    color: #027d4a;
+}
+
+header {
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    font-weight: thin;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+    top: 0;
+}
+
+body {
+    min-width: 290px;
+    font-family: 'Nunito', sans-serif;
+}
+
+code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #EEA200;
+
+}
